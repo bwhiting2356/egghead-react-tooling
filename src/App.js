@@ -8,6 +8,10 @@ class App extends React.Component {
     count: 0
   }
 
+  componentWillMount() {
+    // console.log('This lifecycle method should be deprecated')
+  }
+
   render() {
     const { count } = this.state
     return (
